@@ -25,6 +25,7 @@ Download and install the [SARL IDE](http://www.sarl.io/download/index.html).
 
 ```bash
 git clone https://github.com/your-username/your-repo-name.git
+```
 
 ### 4. Import the Project into SARL IDE
 
@@ -81,6 +82,7 @@ Update `src/main/java/helper/AASHelper.java` and Modify the URLs at the top of t
 private final static String AASRegistryURL = "http://localhost:8082";
 private final static String RepositoryURL = "http://localhost:8081";
 private final static String SubmodelRegistryURL = "http://localhost:8083";
+```
 
 #### Option B: Set Up a Local Basyx Server
 If you don't have a Basyx Server, you can configure your own local setup. Process:
@@ -116,6 +118,7 @@ Update the following URL values to match the configuration from your Docker Comp
 private final static String AASRegistryURL = "http://localhost:8082";
 private final static String RepositoryURL = "http://localhost:8081";
 private final static String SubmodelRegistryURL = "http://localhost:8083";
+```
 
 5. Run the server
 Make sure **Docker** is installed and running on your machine.
@@ -124,6 +127,7 @@ To start the Basyx Server, open a terminal in the directory where the `docker-co
 
 ```bash
 docker compose up
+```
 
 This will launch all configured services, including the AAS Registry, Submodel Registry, and Repository.
 
