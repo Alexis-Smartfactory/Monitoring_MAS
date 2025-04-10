@@ -151,6 +151,7 @@ Run the following command inside the `basyx-config` folder. This command will la
 
 ```bash
 docker compose up
+```
 
 3. Add AAS files
 The server expects AAS files to be placed in `basyx-config/aas/`. In this preconfigured setup, the required AAS files for this use case are already included in the aas folder. If needed, you can add or replace files here.
