@@ -92,6 +92,7 @@ Go to the official Basyx getting started page:
 👉 [https://basyx.org/get-started/introduction](https://basyx.org/get-started/introduction)
 
 Download the ZIP file provided.
+
 2. Include Required Services
 
 During the setup process, **make sure to include** the following in the configuration:
